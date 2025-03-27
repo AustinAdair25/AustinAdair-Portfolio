@@ -53,8 +53,8 @@ To run this project locally, follow these steps:
 
 ## 📩 Contact Me
 If you're interested in collaborating or have any questions, feel free to reach out through the contact form on my portfolio or connect with me:
-- **Email:** [Your Email Here]
-- **LinkedIn:** [Your LinkedIn Here]
+- **Email:** austinadair683@gmail.com
+- **LinkedIn:** https://www.linkedin.com/in/austin-adair/
 
 ---
 💡 *If you like this project, consider giving it a star on GitHub!* ⭐
