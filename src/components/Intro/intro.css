@@ -1,0 +1,104 @@
+#intro {
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.bg {
+    position: absolute;
+    top: -1rem;
+    right: 0;
+    z-index: -1;
+    object-fit: cover;
+    height: 100vh;
+    clip-path: inset(0 0 12% 0); /* Crops the bottom half */
+}
+
+.introContent {
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hello {
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.introText {
+    display: block;
+}
+
+.introName {
+    color: yellow;
+}
+
+.introRole {
+    display: inline-block;
+    font-family: monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative; /* Make sure the cursor is inside this span */
+}
+
+.cursor {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 5px; /* Adjust width to make it thinner */
+    height: 100%; /* Make the cursor take the full height of the text */
+    background: white;
+    animation: blink 0.8s infinite;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.introPara {
+  font-size: 1.1rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 1.5; /* Ensures readability */
+  max-width: 40rem; /* Limits the width of the paragraph */
+
+}
+
+.btn {
+    background: white;
+    margin: 1rem 0;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 2rem;
+}
+
+.btnImg {
+    object-fit: cover;
+    margin: 0 0.25rem;
+    height: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .introPara {
+    font-size: 0.98rem; /* Adjusts the font size for smaller screens */
+    max-width: 40rem; /* Reduces the max width to fit smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .introPara {
+    font-size: 0.9rem; /* Even smaller font size for very small screens */
+    max-width: 30rem; /* Further reduces width */
+    text-align: center; /* Centers text for very small screens */
+  }
+}

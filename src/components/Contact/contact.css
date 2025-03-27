@@ -1,0 +1,133 @@
+/* General styling for the Contact Page remains the same */
+#contactPage {
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#projects {
+    margin-bottom: 3rem;
+}
+
+.contactPageTitle {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.clientDesc {
+    font-weight: 300;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+
+.clientImgs {
+    margin: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.clientImg {
+    object-fit: cover;
+    width: 23%;
+    min-width: 9rem;
+    margin: auto;
+    padding: 0.25rem;
+}
+
+#clients {
+    padding: 2rem;
+}
+
+.contactDesc {
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.contactForm {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+}
+
+.name, .email, .msg {
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background: rgb(40, 40, 40);
+}
+
+.submitBtn {
+    background: white;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 2rem;
+    padding: 0.75rem 3.5rem;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link {
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 0.75rem;
+}
+
+/* Specific Styles for the Projects Section (My Projects) */
+#contactPage #projects {
+    margin-top: 50px;
+}
+
+#contactPage .projectsRow {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Adds space between the columns */
+    flex-wrap: wrap;
+}
+
+#contactPage .worksSection {
+    flex: 1 1 calc(33.33% - 20px); /* Each project takes up 33.33% of the width minus the gap */
+    background-color: #373737; /* Optional: to give each section a background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-width: 280px; /* Ensures that the columns are responsive */
+}
+
+#contactPage .worksSection h3 {
+    font-size: 1.5rem;
+    color: rgb(255, 247, 0);
+}
+
+#contactPage .worksSection p {
+    font-size: 1rem;
+    color: #9a9898;
+}
+
+#contactPage .worksSection a {
+    color: #1e88e5;
+    text-decoration: none;
+}
+
+#contactPage .worksSection a:hover {
+    text-decoration: underline;
+}
