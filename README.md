@@ -1,76 +1,60 @@
-<<<<<<< HEAD
-# AustinAdair-Portfolio
-A personal portfolio showcasing my projects, skills, and experience. This React-based website features my work in software development, game design, and multimedia creation.
-=======
-# Getting Started with Create React App
+# Austin Adair - Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my portfolio website repository! This project showcases my skills, projects, and experience in software development and multimedia production.
 
-## Available Scripts
+## 🚀 About This Project
+This portfolio is built with **React.js** and designed to present my standout projects, resume, and contact information. It serves as a digital resume and a showcase of my work in game development, web development, and music production.
 
-In the project directory, you can run:
+## 🎨 Features
+- Fully responsive design for desktop and mobile
+- Interactive **Projects** section showcasing my work
+- **Contact Form** powered by EmailJS for direct communication
+- Clean, modern UI with intuitive navigation
 
-### `npm start`
+## 🛠️ Technologies Used
+- **React.js** - Frontend framework
+- **CSS** - Styling
+- **EmailJS** - Contact form integration
+- **GitHub Pages / Vercel / Netlify (optional)** - Deployment
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📂 Projects Included
+### 🎮 Lorenzo’s Adventure
+- **Type:** 2D Platformer Game
+- **Tech Stack:** Unity & C#
+- [Play the game](https://eometheous.itch.io/lorenzos-adventure) | [GitHub Repo](https://github.com/AustinAdair25)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🌐 Portfolio Website
+- **Type:** Personal Website
+- **Tech Stack:** React.js
+- [GitHub Repo](https://github.com/AustinAdair25/portfolio-website)
 
-### `npm test`
+## 🛠️ Installation & Setup
+To run this project locally, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/AustinAdair25/AustinAdair-Portfolio.git
+   ```
 
-### `npm run build`
+2. **Navigate to the project directory:**
+   ```sh
+   cd AustinAdair-Portfolio
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Install dependencies:**
+   ```sh
+   npm install
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. **Run the development server:**
+   ```sh
+   npm start
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📩 Contact Me
+If you're interested in collaborating or have any questions, feel free to reach out through the contact form on my portfolio or connect with me:
+- **Email:** [Your Email Here]
+- **LinkedIn:** [Your LinkedIn Here]
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> ffd8d48 (Initial commit)
-# AustinAdair-Portfolio
+---
+💡 *If you like this project, consider giving it a star on GitHub!* ⭐
