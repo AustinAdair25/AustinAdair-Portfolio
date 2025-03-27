@@ -46,7 +46,7 @@ const Contact = () => {
                 <h3 className="yellowText">Portfolio Website</h3>
                 <p className="projectSubheading">Personal Website</p>
                 <p className="projectDescription">Designed and developed using React, showcasing projects and resume.</p>
-                <p><a href="https://github.com/AustinAdair25/portfolio-website" target="_blank" rel="noopener noreferrer">GitHub Repository</a></p>
+                <p><a href="https://github.com/AustinAdair25/AustinAdair-Portfolio" target="_blank" rel="noopener noreferrer">Source Code</a></p>
             </div>
                 {/* Project 3 */}
                 <div className="worksSection">
