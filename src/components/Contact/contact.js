@@ -37,7 +37,7 @@ const Contact = () => {
             <div className="worksSection">
                 <h3 className="yellowText">Lorenzo's Adventure</h3>
                 <p className="projectSubheading">2D Platformer Game</p>
-                <p className="projectDescription">Composed and co-developed using Unity & C#.</p>
+                <p className="projectDescription">Co-developed using Unity & C#, composed and produced with Ableton.</p>
                 <p><a href="https://eometheous.itch.io/lorenzos-adventure" target="_blank" rel="noopener noreferrer">Game Portfolio</a></p>
             </div>
 
@@ -50,10 +50,10 @@ const Contact = () => {
             </div>
                 {/* Project 3 */}
                 <div className="worksSection">
-                    <h3 className="yellowText">Lorenzo's Adventure</h3>
-                    <p className="greySubheading">2D Platformer Game</p>
-                    <p>Composed and co-developed using Unity & C#.</p>
-                    <p><a href="https://eometheous.itch.io/lorenzos-adventure" target="_blank" rel="noopener noreferrer">Game Portfolio</a></p>
+                    <h3 className="yellowText">MathParse</h3>
+                    <p className="greySubheading">Mathematical Expression Parser</p>
+                    <p>Developed with Python for parsing and evaluating expressions.</p>
+                    <p><a href="https://github.com/AustinAdair25/MathParse" target="_blank" rel="noopener noreferrer">Source Code</a></p>
                 </div>
             </div>
         </div>
