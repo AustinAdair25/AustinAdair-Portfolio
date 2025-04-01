@@ -36,7 +36,7 @@ const Works = () => {
                 <h3>Dobil Laboratories - Audio Visual Director</h3>
                 <p>San Rafael, CA | January 2020 - August 2021</p>
                 <ul>
-                    <li>Utilized <span className="yellowText">Salesforce</span> to generate Event Orders, draft invoices, and track sales performance to ensure accurate financial documentation and efficient revenue management.</li>
+                    <li>Utilized <span className="yellowText">Salesforce</span> to generate event orders, draft invoices, and track sales performance to ensure accurate financial documentation and efficient revenue management.</li>
                     <li>Proactively engaged in client outreach and relationship-building to promote and sell audio-visual equipment and services, driving significant revenue growth.</li>
                     <li>Closed sales deals with clients by identifying their needs and recommending tailored solutions, resulting in a 20% increase in revenue through upselling of technology services.</li>
                     <li>Leveraged the Crestron integration system to co-design a program enabling remote operation of projection and lighting equipment via iPads and in-room touchscreens.</li>
