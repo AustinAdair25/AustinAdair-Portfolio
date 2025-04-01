@@ -6,7 +6,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /*text-align: center;  TODO: decide whether center or left justify*/
     text-align: center;
     margin: 0 auto;
 }

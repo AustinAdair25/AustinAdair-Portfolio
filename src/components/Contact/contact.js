@@ -5,23 +5,33 @@ import emailjs from '@emailjs/browser';
 const Contact = () => {
     const form = useRef();
     const sendEmail = (e) => {
-        e.preventDefault();
-    
-        emailjs
+      e.preventDefault();
+  
+      const name = form.current.from_name.value.trim();
+      const email = form.current.from_email.value.trim();
+      const message = form.current.message.value.trim();
+  
+      if (!name || !email || !message) {
+          alert('Please fill in all fields before submitting.');
+          return;
+      }
+  
+      emailjs
           .sendForm('service_3gjfbmo', 'template_hrx56xl', form.current, {
-            publicKey: 'UNnajZ81c4VxDao8_',
+              publicKey: 'UNnajZ81c4VxDao8_',
           })
           .then(
-            () => {
-              console.log('SUCCESS!');
-              e.target.reset();
-              alert('Email Sent!')
-            },
-            (error) => {
-              console.log('FAILED...', error.text);
-            },
+              () => {
+                  console.log('SUCCESS!');
+                  e.target.reset();
+                  alert('Email Sent!');
+              },
+              (error) => {
+                  console.log('FAILED...', error.text);
+              }
           );
-      };
+  };
+  
 
   return (
     <section id="contactPage">

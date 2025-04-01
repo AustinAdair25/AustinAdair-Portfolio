@@ -21,10 +21,15 @@
 }
 
 .clientDesc {
-    font-weight: 300;
-    font-size: 1rem;
+    font-weight: 400;
+    font-size: 1.1rem;
+    max-width: 50rem;
+    padding: 0 2rem;
     padding-bottom: 1rem;
+    text-align: center;
+    margin: 0 auto;
 }
+
 
 .clientImgs {
     margin: 1rem 0;
@@ -78,6 +83,9 @@
     border-radius: 0.5rem;
     margin: 2rem;
     padding: 0.75rem 3.5rem;
+    color: black;
+    font-size: 1rem;
+    text-align: center;
 }
 
 .links {
@@ -100,17 +108,17 @@
 #contactPage .projectsRow {
     display: flex;
     justify-content: space-between;
-    gap: 20px; /* Adds space between the columns */
+    gap: 20px;
     flex-wrap: wrap;
 }
 
 #contactPage .worksSection {
-    flex: 1 1 calc(33.33% - 20px); /* Each project takes up 33.33% of the width minus the gap */
-    background-color: #373737; /* Optional: to give each section a background */
+    flex: 1 1 calc(33.33% - 20px);
+    background-color: #373737;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    min-width: 280px; /* Ensures that the columns are responsive */
+    min-width: 280px;
 }
 
 #contactPage .worksSection h3 {

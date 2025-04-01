@@ -14,7 +14,7 @@ const Intro = () => {
       const timeout = setTimeout(() => {
         setTypedText((prev) => prev + roles[index]);
         setIndex(index + 1);
-      }, 150); // Adjust speed of typing here
+      }, 150); // Adjust speed of typing
       return () => clearTimeout(timeout);
     }
   }, [index, roles]);
@@ -28,7 +28,6 @@ const Intro = () => {
           <br />
           <span className="introRole">
             {typedText}
-            {/* Cursor will be inside introRole and appears after the typed text */}
             <span className="cursor" />
           </span>
         </span>
@@ -38,7 +37,6 @@ const Intro = () => {
           <br /> user-friendly applications.
         </p>
         
-        {/* Hire me button wrapped in Link */}
         <Link to="contact" smooth={true} duration={500}>
           <button className="btn">
             <img src={btnImg} alt="Hire me" className="btnImg" />
