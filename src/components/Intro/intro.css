@@ -14,19 +14,19 @@
     z-index: -1;
     object-fit: cover;
     height: 100vh;
-    clip-path: inset(0 0 12% 0); /* Crops the bottom half */
+    clip-path: inset(0 0 12% 0);
 }
 
 .introContent {
     height: 100vh;
     width: 100vw;
-    padding: 1rem 2rem; /* Adjust padding to move it up */
+    padding: 1rem 2rem;
     font-size: 3rem;
     font-weight: 700;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: -2rem; /* Moves the whole section up */
+    margin-top: -2rem;
 }
 
 .hello {
@@ -47,15 +47,15 @@
     font-family: monospace;
     white-space: nowrap;
     overflow: hidden;
-    position: relative; /* Make sure the cursor is inside this span */
+    position: relative;
 }
 
 .cursor {
     position: absolute;
     top: 0;
     right: 0;
-    width: 5px; /* Adjust width to make it thinner */
-    height: 100%; /* Make the cursor take the full height of the text */
+    width: 5px;
+    height: 100%;
     background: white;
     animation: blink 0.8s infinite;
 }
@@ -94,7 +94,7 @@
 
 .contactInfoContainer {
   margin: 1rem 0;
-  text-align: left; /* Align left like the intro paragraph */
+  text-align: left;
 }
 
 .contactInfo {
