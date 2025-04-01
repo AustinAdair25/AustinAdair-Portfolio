@@ -138,3 +138,33 @@
 #contactPage .worksSection a:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 720px) {
+    #contactPage .projectsRow {
+        padding: 0 30px;
+    }
+
+    #contactPage .worksSection {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 480px) {
+    #contactPage .projectsRow {
+        padding: 0 30px;
+    }
+
+    #contactPage .worksSection {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .contactDesc { 
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+}

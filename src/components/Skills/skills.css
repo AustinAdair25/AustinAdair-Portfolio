@@ -53,17 +53,22 @@
 
 .skillBarText>h2 {
     font-size: 1.5rem;
+    margin-bottom: 0.3rem;
 }
 
 @media screen and (max-width: 720px) {
     .skillBarText>p {
-        font-size: 2vw;
+        font-size: 2.6vw;
+    }
+    .skillBars {
+        max-width: 95%;
     }
 }
 
 @media screen and (max-width: 480px) {
     .skillBarText>p {
-        font-size: 3vw;
+        font-size: 3.6vw;
+        font-weight: 200;
     }
     .skillBarImg {
         height: 2.25rem;
