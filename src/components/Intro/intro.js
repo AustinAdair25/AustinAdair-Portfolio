@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './intro.css';
 import bg from '../../assets/profile.png';
-import btnImg from '../../assets/hireme.png';
-import { Link } from 'react-scroll';
+/*import { Link } from 'react-scroll';*/
 
 const Intro = () => {
   const roles = "Software Developer";
@@ -36,13 +35,12 @@ const Intro = () => {
           <br /> software development, UI design, and building responsive, 
           <br /> user-friendly applications.
         </p>
-        
-        <Link to="contact" smooth={true} duration={500}>
-          <button className="btn">
-            <img src={btnImg} alt="Hire me" className="btnImg" />
-            Hire me
-          </button>
-        </Link>
+
+        {/* Contact Info aligned with the rest */}
+        <div className="contactInfoContainer">
+          <p className="contactInfo">📞 (310) 779-3404</p>
+          <p className="contactInfo">✉️ austinadair683@gmail.com</p>
+        </div>
       </div>
       <img src={bg} alt="Profile" className="bg" />
     </section>
