@@ -17,17 +17,6 @@ This portfolio is built with **React.js** and designed to present my standout pr
 - **EmailJS** - Contact form integration
 - **GitHub Pages / Vercel / Netlify (optional)** - Deployment
 
-## 📂 Projects Included
-### 🎮 Lorenzo’s Adventure
-- **Type:** 2D Platformer Game
-- **Tech Stack:** Unity & C#
-- [Play the game](https://eometheous.itch.io/lorenzos-adventure) | [GitHub Repo](https://github.com/AustinAdair25)
-
-### 🌐 Portfolio Website
-- **Type:** Personal Website
-- **Tech Stack:** React.js
-- [GitHub Repo](https://github.com/AustinAdair25/portfolio-website)
-
 ## 🛠️ Installation & Setup
 To run this project locally, follow these steps:
 
